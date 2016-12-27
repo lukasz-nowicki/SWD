@@ -39,9 +39,9 @@ public class InitializeProgram {
             System.exit(1);
         }
 
-        // Value and weight of each item
+        // Podawanie ceny oraz wartości
         for(int i = 0; i < number_of_items; i++) {
-            System.out.println("Enter the value of item " + (i + 1) + ": ");
+            System.out.println("Enter price of item: " + (i + 1) + ": ");
             try {
                 input=br.readLine();
             } catch (IOException e) {
@@ -55,7 +55,7 @@ public class InitializeProgram {
                 System.exit(1);
             }
 
-            System.out.println("Enter the weight of item " + (i + 1) + ": ");
+            System.out.println("Enter the width of item: " + (i + 1) + ": ");
             try {
                 input=br.readLine();
             } catch (IOException e) {
@@ -70,7 +70,7 @@ public class InitializeProgram {
             }
         }
 
-        // Capacity of knapsack
+        // Określenie wielkości magazynu
         System.out.println("Enter the knapsack capacity: ");
         try {
             input=br.readLine();
@@ -85,7 +85,7 @@ public class InitializeProgram {
             System.exit(1);
         }
 
-        // Population size
+        // Określenie population size
         System.out.println("Enter the population size: ");
         try {
             input=br.readLine();
@@ -100,7 +100,7 @@ public class InitializeProgram {
             System.exit(1);
         }
 
-        // Maximum number of generations
+        // Określenie max iteracji
         System.out.println("Enter the maximum number of generations: ");
         try {
             input=br.readLine();
@@ -115,7 +115,7 @@ public class InitializeProgram {
             System.exit(1);
         }
 
-        // Crossover probability
+        // Określenie Crossover prob
         System.out.println("Enter the crossover probability: ");
         try {
             input=br.readLine();
@@ -130,7 +130,7 @@ public class InitializeProgram {
             System.exit(1);
         }
 
-        // Mutation probability
+        // Określenie Mutation probability
         System.out.println("Enter the mutation probability: ");
         try {
             input=br.readLine();
