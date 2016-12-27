@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+
 /**
  * Created by Newuser on 2016-12-27.
  */
@@ -14,9 +16,10 @@ public class GeneticAlorithm {
 
 
     // Funkcja zwraca gen
-    private String makeGene(){
+    public String makeGene(int pop_size){
+        System.out.println("W gen sieze: "+pop_size);
         char chromosome;
-        int number_of_items = init.getNumber_of_items();
+        int number_of_items = pop_size;
         //Pentla generująca geny
         for (int i=0; i<number_of_items;i++){
             chromosome='0';
@@ -26,7 +29,12 @@ public class GeneticAlorithm {
             }
             gen.append(chromosome);
         }
+        System.out.println("Zwracam "+gen.toString());
         return gen.toString();
     }
 
+    //Funkcja która tworzy mutacje źródło: WIKI
+    public void mutateGen(){
+
+    }
 }
