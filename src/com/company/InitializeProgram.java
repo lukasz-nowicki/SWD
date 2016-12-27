@@ -231,6 +231,4 @@ public class InitializeProgram {
     public void setWeight_of_items(ArrayList<Double> weight_of_items) {
         this.weight_of_items = weight_of_items;
     }
-
-
 }

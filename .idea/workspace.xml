@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af4a1b07-c345-43ba-b3c1-be5b0cf7747e" name="Default" comment="Making X-max project2">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/GeneticAlorithm.java" afterPath="$PROJECT_DIR$/src/com/company/GeneticAlorithm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/InitializeProgram.java" afterPath="$PROJECT_DIR$/src/com/company/InitializeProgram.java" />
     </list>
     <ignored path="SWD.iws" />
@@ -53,21 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneticAlorithm.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GeneticAlorithm.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/GeneticAlorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+            <state relative-caret-position="324">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InitializeProgram.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InitializeProgram.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/InitializeProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5115#5116#0" expanded="true" />
@@ -138,9 +140,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Product.java" />
-        <option value="$PROJECT_DIR$/src/com/company/GeneticAlorithm.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/InitializeProgram.java" />
+        <option value="$PROJECT_DIR$/src/com/company/GeneticAlorithm.java" />
       </list>
     </option>
   </component>
@@ -674,7 +676,7 @@
       <workItem from="1482668567648" duration="55000" />
       <workItem from="1482773901409" duration="163000" />
       <workItem from="1482774131424" duration="2590000" />
-      <workItem from="1482835712012" duration="4498000" />
+      <workItem from="1482835712012" duration="4860000" />
     </task>
     <task id="LOCAL-00001" summary="Making X-max project">
       <created>1482612667324</created>
@@ -694,7 +696,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13507000" />
+    <option name="totallyTimeSpent" value="13869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1370" height="744" extended-state="0" />
@@ -852,14 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GeneticAlorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
@@ -887,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/InitializeProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5115#5116#0" expanded="true" />
@@ -924,6 +918,14 @@
             <element signature="e#6626#6627#0" expanded="true" />
             <element signature="e#6680#6681#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GeneticAlorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
